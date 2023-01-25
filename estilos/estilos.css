@@ -6,20 +6,8 @@
 
 /* Inicio navbar */
 
-
-
-
-/* button.navbar-toggler{
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
-
-} */
-
-
-
 .navbar-brand{
-  
+
     height: 100px;
     width: 100px;
     background-image: url(../img/logo.jpeg);

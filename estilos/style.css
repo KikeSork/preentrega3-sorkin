@@ -22,10 +22,15 @@
 
 .nav-item a {
   transition: 1s;
+  font-size: 20px;
 }
 
 .nav-item a:hover {
   background-color: red;
   color: white;
   border-radius: 3px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+h1 {
+  color: red;
+}
