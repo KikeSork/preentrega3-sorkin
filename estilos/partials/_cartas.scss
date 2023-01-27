@@ -1,0 +1,18 @@
+.card {
+    background-color: $color1;
+    color: $color2;
+    margin-top: $size3;
+    
+}
+
+.card a {
+    background-color: $color2;
+    color: $color1;
+    border: 1px solid $color1;
+}
+
+.card a:hover {
+    background-color: $color1;
+    color: $color2;
+    border: 1px solid $color2;
+}

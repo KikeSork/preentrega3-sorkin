@@ -1,0 +1,39 @@
+main {
+
+    width: 100%;
+    height: 345px;
+    background-image: url(/img/fondoMollo.png);
+    background-size: cover;
+    background-position: top center;
+    color: $color2;
+    padding: $size2;
+
+    & .call {
+
+        background-color: rgba(0, 0, 0, 0.648);
+        padding: $size2;
+        width: 50%;
+
+    }
+    
+}
+
+.call h3 {
+    color: $color1;
+    margin-bottom: $size2;
+}
+
+.call p {
+    margin-bottom: $size2;
+}
+
+.call a {
+    color: $color2;
+    text-decoration: none;
+    background-color: $color1;
+    padding: 5px;
+}
+
+
+
+

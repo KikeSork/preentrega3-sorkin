@@ -58,10 +58,120 @@
   background-position: top;
 }
 
-.contemedor {
+h3 {
+  color: rgb(226, 26, 46);
+  margin-top: 40px;
+}
+
+.card {
+  background-color: rgb(226, 26, 46);
+  color: white;
+  margin-top: 40px;
+}
+
+.card a {
+  background-color: white;
+  color: rgb(226, 26, 46);
+  border: 1px solid rgb(226, 26, 46);
+}
+
+.card a:hover {
+  background-color: rgb(226, 26, 46);
+  color: white;
+  border: 1px solid white;
+}
+
+h1 {
+  color: rgb(226, 26, 46);
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.contenedorGaleria {
+  width: 100%;
+  height: 700px;
   display: grid;
+  padding: 10px;
+  margin-right: 10px;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "caja1 caja1 caja1 caja2" "caja3 caja5 caja5 caja2" "caja4 caja5 caja5 caja6";
 }
 
 .caja {
   border: 2px solid rgb(226, 26, 46);
+}
+
+.caja1 {
+  grid-area: caja1;
+  background-image: url(/img/molo7.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.caja2 {
+  grid-area: caja2;
+  background-image: url(/img/molo13.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.caja3 {
+  grid-area: caja3;
+  background-image: url(/img/molo5.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.caja4 {
+  grid-area: caja4;
+  background-image: url(/img/molo6.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.caja5 {
+  grid-area: caja5;
+  background-image: url(/img/molo9.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.caja6 {
+  grid-area: caja6;
+  background-image: url(/img/molo12.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  width: 100%;
+  height: 345px;
+  background-image: url(/img/fondoMollo.png);
+  background-size: cover;
+  background-position: top center;
+  color: white;
+  padding: 20px;
+}
+main .call {
+  background-color: rgba(0, 0, 0, 0.648);
+  padding: 20px;
+  width: 50%;
+}
+
+.call h3 {
+  color: rgb(226, 26, 46);
+  margin-bottom: 20px;
+}
+
+.call p {
+  margin-bottom: 20px;
+}
+
+.call a {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(226, 26, 46);
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
