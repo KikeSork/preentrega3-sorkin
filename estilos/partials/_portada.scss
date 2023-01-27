@@ -48,19 +48,27 @@
             }
 
         }
-        & .fotoPortada{
-            background-image: url(../img/plantaColor.jpg);
-            opacity: 0.3;
 
-            height: 90vh;
-            margin-top: $size1;
-            background-size: cover;
-            background-position: top;
+}
 
-        }
-    }
-
-    h3 {
-        color: $color1;
+h3 {
+    color: $color1;
         margin-top: $size3;
-    }
+}
+
+
+
+
+.fotoPortada{
+        background-image: url(../img/plantaColor.jpg);
+        opacity: 0.3;
+
+        height: 80vh;
+        margin-top: $size1;
+        background-size: cover;
+        background-position: top;
+
+}
+    
+
+    

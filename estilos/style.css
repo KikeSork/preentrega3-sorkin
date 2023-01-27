@@ -49,18 +49,19 @@
   color: white;
   padding-inline: 5px;
 }
-.portada .fotoPortada {
-  background-image: url(../img/plantaColor.jpg);
-  opacity: 0.3;
-  height: 90vh;
-  margin-top: 10px;
-  background-size: cover;
-  background-position: top;
-}
 
 h3 {
   color: rgb(226, 26, 46);
   margin-top: 40px;
+}
+
+.fotoPortada {
+  background-image: url(../img/plantaColor.jpg);
+  opacity: 0.3;
+  height: 80vh;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: top;
 }
 
 .card {
