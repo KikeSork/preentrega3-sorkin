@@ -7,11 +7,11 @@
 }
 *::-moz-selection {
   color: white;
-  background-color: red;
+  background-color: rgb(226, 26, 46);
 }
 *::selection {
   color: white;
-  background-color: red;
+  background-color: rgb(226, 26, 46);
 }
 
 .navbar-brand {
@@ -28,13 +28,40 @@
 }
 
 .nav-item a:hover {
-  background-color: red;
+  background-color: rgb(226, 26, 46);
   color: white;
-  border-radius: 3px;
 }
 
-main {
-  background-color: red;
-  width: 100vh;
-  height: 400px;
+.portada {
+  margin-top: 40px;
+  margin-inline: 10px;
+  height: 100vh;
+}
+.portada .tituloPagina {
+  margin-right: 20px;
+  color: rgb(226, 26, 46);
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.portada .tituloPagina .primeraLetra {
+  background-color: rgb(226, 26, 46);
+  color: white;
+  padding-inline: 5px;
+}
+.portada .fotoPortada {
+  background-image: url(/img/plantaColor.png);
+  opacity: 0.3;
+  height: 90vh;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: top;
+}
+
+.contemedor {
+  display: grid;
+}
+
+.caja {
+  border: 2px solid rgb(226, 26, 46);
 }/*# sourceMappingURL=style.css.map */

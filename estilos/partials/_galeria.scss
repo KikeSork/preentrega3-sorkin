@@ -1,0 +1,12 @@
+.contenedorGaleria{
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: ;
+
+}
+
+.caja{
+    border: 2px solid $color1;
+}
