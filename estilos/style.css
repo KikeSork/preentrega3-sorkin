@@ -162,7 +162,7 @@ h1 {
 @media screen and (max-width: 480px) {
   .contenedorGaleria {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat 6, 1fr;
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6";
   }
 }
