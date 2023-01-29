@@ -8,9 +8,10 @@ h1 {
     
     width: 100%;
     height: 700px;
+    
     display: grid;
     padding: $size1;
-    margin-right: 10px;
+    margin-right: $size1;
     gap: 5px;
     
     
@@ -68,4 +69,39 @@ h1 {
     background-size: cover;
     background-position: center;
 }
+
+
+@media screen and (max-width: 768px){
+
+    .contenedorGaleria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 2fr);
+        grid-template-areas: 
+        "caja1 caja2" 
+        "caja3 caja4"
+        "caja5 caja6";
+
+    }
+
+}  
+
+@media  screen and (max-width: 480px) {
+
+    .contenedorGaleria{
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (6, 1fr);
+        grid-template-areas: 
+        "caja1"
+        "caja2"
+        "caja3"
+        "caja4"
+        "caja5"
+        "caja6";
+        
+        
+    }
+    
+}
+
 

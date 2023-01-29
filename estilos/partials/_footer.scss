@@ -1,0 +1,23 @@
+.pieDePagina{
+    background-color: $color1;
+    color: $color2;
+    margin-inline: $size1;
+    margin-top: $size1;
+    text-align: center;
+    padding: $size2;
+
+}
+
+    .pieDePagina i{
+
+        letter-spacing: $size3;
+
+}
+
+
+    .pieDePagina i:hover{
+    
+        color: $color3;
+}
+
+

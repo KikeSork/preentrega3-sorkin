@@ -58,6 +58,7 @@ h3 {
 .fotoPortada {
   background-image: url(../img/plantaColor.jpg);
   opacity: 0.3;
+  border: 1px solid rgb(226, 26, 46);
   height: 80vh;
   margin-top: 10px;
   background-size: cover;
@@ -68,6 +69,11 @@ h3 {
   background-color: rgb(226, 26, 46);
   color: white;
   margin-top: 40px;
+  position: relative;
+  display: block;
+  border-radius: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card a {
@@ -146,6 +152,20 @@ h1 {
   background-position: center;
 }
 
+@media screen and (max-width: 768px) {
+  .contenedorGaleria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 2fr);
+    grid-template-areas: "caja1 caja2" "caja3 caja4" "caja5 caja6";
+  }
+}
+@media screen and (max-width: 480px) {
+  .contenedorGaleria {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 6, 1fr;
+    grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6";
+  }
+}
 main {
   width: 100%;
   height: 345px;
@@ -175,4 +195,21 @@ main .call {
   text-decoration: none;
   background-color: rgb(226, 26, 46);
   padding: 5px;
+}
+
+.pieDePagina {
+  background-color: rgb(226, 26, 46);
+  color: white;
+  margin-inline: 10px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.pieDePagina i {
+  letter-spacing: 40px;
+}
+
+.pieDePagina i:hover {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
