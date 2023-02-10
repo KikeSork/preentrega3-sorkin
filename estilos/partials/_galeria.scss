@@ -90,7 +90,7 @@ h1 {
     .contenedorGaleria{
         
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+        grid-template-rows: repeat(6, 1fr);
         grid-template-areas: 
         "caja1"
         "caja2"
