@@ -8,16 +8,20 @@
 
 }
 
-.pieDePagina i{
+.pieDePagina a{
 
         letter-spacing: $size3;
 
 }
 
 
-.pieDePagina i:hover{
+.pieDePagina a:hover{
 
         color: $color3;
 }
 
+.fa-brands{
+        color: $color2;
+        text-decoration: none;
+}
 
