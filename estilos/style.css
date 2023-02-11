@@ -57,18 +57,17 @@ h3 {
 
 .fotoPortada {
   background-image: url(../img/plano.jpg);
-  opacity: 0.3;
   border: 1px solid rgb(226, 26, 46);
   height: 80vh;
   margin-top: 10px;
   background-size: cover;
-  background-position: top;
+  background-position: right;
 }
 
 .card {
   background-color: rgb(226, 26, 46);
   color: white;
-  margin-top: 40px;
+  margin-top: 10px;
   position: relative;
   display: block;
   border-radius: 0;

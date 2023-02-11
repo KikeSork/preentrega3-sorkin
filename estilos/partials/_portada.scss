@@ -61,12 +61,11 @@ h3 {
 
 .fotoPortada{
         background-image: url(../img/plano.jpg);
-        opacity: 0.3;
         border: 1px solid $color1;
         height: 80vh;
         margin-top: $size1;
         background-size: cover;
-        background-position: top;
+        background-position: right;
 
 }
     
