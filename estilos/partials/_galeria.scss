@@ -7,7 +7,7 @@ h1 {
 .contenedorGaleria {
     
     width: 100%;
-    
+    height: 700px;
     
     display: grid;
     padding: $size1;
@@ -90,7 +90,7 @@ h1 {
     .contenedorGaleria{
         
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
         grid-template-areas: 
         "caja1"
         "caja2"
